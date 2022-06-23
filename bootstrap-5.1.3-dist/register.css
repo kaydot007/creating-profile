@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: brown;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav header img {
+    width: 170px;
+}
+
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+nav ul li button {
+    border: none;
+    padding: 10px 20px;
+    border: 1.5px solid yellow;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 500;
+}
+nav ul li button:hover{
+    color: rgb(41, 41, 166);
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+nav ul li a:hover,
+span {
+    color: yellow;
+}
+.vibe{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(205, 205, 198);
+    height: 140vh;
+   
+}
+.contain{
+    margin-top: 50px;
+    background-color: white;
+    justify-self: center;
+    width: 45%;
+    box-shadow: 2px 2px 5px black;
+    height: 110vh;
+    border-radius: 6px;
+}
+.contain h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.log{
+    display: flex;
+    
+}
+.log input {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: whitesmoke;
+}
+.log input:hover, .subject input:hover, .message textarea:hover{
+    border-color: blue;
+}
+.log .me {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.see{
+    text-align: center;
+}
+.see a{
+    text-decoration: none;
+    color: gold;
+}
+.see button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: gold;
+    border: none;
+    
+}
+footer {
+    display: flex;
+    background-color: rgb(79, 72, 127);
+    margin: auto;
+    height: 68vh;
+    justify-content: space-evenly;
+}
+
+.foot {
+    margin-top: 70px;
+    display: flex;
+    background-color: rgb(79, 72, 127);
+    color: white;
+}
+
+.us {
+    margin-left: 80px;
+}
+
+.table {
+    margin-left: 40px;
+}
+
+.contact {
+    margin-left: 110px;
+}
+
+.copy {
+    text-align: center;
+    background-color: black;
+    color: rgb(61, 59, 59);
+    justify-content: center;
+    padding: 15px 10px;
+    padding-top: 5px;
+}
